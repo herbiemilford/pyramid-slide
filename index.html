@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #pyramid {
+            line-height: 0;
+            font-size: 30px;
+        }
+
+        body {
+            font-family: "Courier New", monospace;
+            text-align: center;
+        }
+    </style>
+</head>
+<body >
+    <h1>Pyramid Slide</h1>
+
+    <br>
+
+    <!-- <p>When you say</p>
+    <p><strong>Draw a pyramid</strong></p>
+    <p>I say:</p> -->
+
+    <br>
+<label>Pick-A-Brick:
+    <select id="brick">
+        <option value="#">#</option>
+        <option value="@">@</option>
+        <option value="X">X</option>
+        <option value="$">$</option>
+    </select>
+</label>
+    <label>How high?</label>
+    <input type="range" id="height" min='1' max='20' value='8'/>
+    <label id="height-label">8</label>
+    <br><br>
+    <!-- <button id="button1">Draw a pyramid</button> -->
+
+    <br><br>
+
+    <div id="pyramid"></div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
