@@ -72,7 +72,7 @@ document.getElementById("pyramid").innerHTML = '';
          // build up a string for this row
          var rowStr = "";
          for (var i = 0; i < numSpaces; i++) {
-             rowStr += ".";
+             rowStr += "\xa0";
          }
          for (var i = 0; i < numBricks; i++) {
              rowStr += brickChar;
